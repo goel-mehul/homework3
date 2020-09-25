@@ -43,6 +43,8 @@ p{
 a{
   font-size: 16px;
   color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 
 }
 
@@ -53,7 +55,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   text-align: center;
   vertical-align: middle;
@@ -64,12 +66,13 @@ table{
 
 .rowhead{
   border-right: 2px solid black;
+  border-top: 2px solid black;
 }
 
 td{
   padding: 10px;
   text-align: center;
-  border-top: 2px black;
+  border-top: 2px solid black;
 }
 
 tr:nth-child(even) {
